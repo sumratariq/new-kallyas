@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+}
+.img{
+    height: 65px;
+    width: 60px;
+}
+#banner{
+    height: 800px;
+    background-image: url("../images/office.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+.blank{
+    width: 1349px;
+    height: 800px;
+    background-color: red;
+    position: absolute;
+    opacity: 0.7;
+}
+#header{
+    margin: 0 auto;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto;
+}
+.list{
+    list-style-type:none;
+    display: flex;
+}
+li:hover{
+    border-bottom: 3px solid red;
+}
+li{
+    margin:0 0 0 67px;
+}
+.icons li{
+    margin: 0 44px 0 0;
+    padding: 0;
+}
+.c1p2 a{
+    color: white;
+    text-decoration: none;
+}
+.mainp{
+    margin: 0 auto;
+    width: 1170px;
+    color: #fff;
+    font-size: 35px;
+    position: relative;
+}
+.paragraph{
+    width: 700px;
+}
+.i{
+    height: 171px;
+    width: 134px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+.p{
+    width: 700px;
+}
+.dot{
+    height: 139px;
+    width: 134px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+.logo{
+    height: 70px;
+    width: 98px;
+    position: relative;
+    z-index: 1;
+}
+.main{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    padding-top: 35px;
+}
+.main-content .child:nth-child(even){
+    background-color: rgb(235, 230, 230);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-content .child:nth-child(even) .main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-content .child:nth-child(even) .i{
+    margin-right: 0;
+    margin-left: 200px;
+}
+.child5{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.para{
+    width: 590px;
+    text-align: right;
+    font-size: 25px;
+}
+.input{
+    width: 525px;
+    padding-top: 73px;
+}
+.data{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.name{
+    height: 40px;
+    width: 515px;
+    margin-bottom: 15px; 
+}
+.data1{
+    height: 40px;
+    width: 252px;
+    margin-bottom: 15px;
+}
+.txt{
+    width: 518px;
+    height: 250px;
+}
+.child6{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    height: 35px;
+    cursor: pointer;
+    border-color: red;
+}
+#footer{
+    border: solid black;
+    background-color: black;
+    margin-top: 50px;
+}
+.foot{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+}
+.endmid{
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.contact{
+    text-align: left;
+    width: 350px;
+}
+.search{
+    width: 512px;
+    text-align: right;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 142px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: red;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}
+.data2{
+    height: 40px;
+    width: 373px;
+    margin: -5px;   
+}
+.icons{
+    width: 309px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    transition: all ease-in-out 1.1s;
+}
+ul.icons a:hover{
+    transform: scale(1.2);
+}
+.icons a{
+    color: black;
+}
+.stop{
+    height: 30px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.end{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
